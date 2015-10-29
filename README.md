@@ -1,2 +1,2 @@
-# stacoexistence.github.io
+# http://stacoexistence.github.io
 final website
