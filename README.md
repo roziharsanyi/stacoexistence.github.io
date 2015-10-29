@@ -1,2 +1,2 @@
-# http://stacoexistence.github.io
+# http://roziharsanyi.github.io/stacoexistence.github.io
 final website
