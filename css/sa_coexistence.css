@@ -1,0 +1,309 @@
+@font-face {
+  font-family: 'Poiret One';
+  font-style: cursive;
+  font-weight: normal;
+  src: local('Poiret One'), url('./Poiret_One-2/Poiret_One.ttf') format('woff');
+}
+}
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-size: 100%;
+	margin-top: 50px;
+}
+.menuBar{
+	width:100%;
+	height: 50px;
+	display: block;
+	position: fixed;
+	top:0;
+	left:0;
+}
+.nav{
+	float: right;
+	margin-right: 10px;
+}
+.nav ul li{
+	list-style: none;
+	float: left;
+}
+
+#center {
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 10px;
+	padding-left: 10px;
+	width: 95%;
+	padding-top: 15px;
+}
+	
+#top {
+	text-align: center;
+	background-size: cover;
+	color: #FFF;
+	font-family: 'Poiret One', cursive;
+    font-size: 1.8em;
+    padding: 10px;
+	margin-bottom: 30px;
+	margin-top: 10px;
+}
+
+#menu-bar {
+text-align: center;
+padding: 0px;
+margin-bottom: 10px;
+  height: auto;
+  line-height: 100%;
+  position:relative;
+  z-index:999;
+  font-family: 'Poiret One', cursive;
+}
+
+#menu-bar ul {
+	display: inline-block;
+	list-style: none;
+}
+
+#menu-bar li {
+	display: inline;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	float: left;
+	position: relative;
+	border: solid 1px #FFFFFF;
+}
+#menu-bar a {
+  font-size: 1.3em;
+  color: #FFFFFF;
+  text-decoration: none;
+  display: block;
+  padding: 9px 20px 9px 19px;
+  margin: 0;
+}
+
+#menu-bar li:hover > a {
+background: #D40B0B;
+  color: #FFFFFF;
+}
+
+#menu-bar li a.selectedclass
+{
+	color: #FFFFFF;
+	background: #111111;
+}
+
+html[xmlns] #menu-bar {
+  display: block;
+}
+* html #menu-bar {
+  height: 1%;
+}
+
+#content {
+	font-family: 'Poiret One', cursive;
+	background-color: hsla(0,0%,100%,0.8);
+	color: #333;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#content a {
+	text-decoration: none;
+}
+
+nav {
+	text-align: center;
+	/*display: block;*/
+}
+
+nav ul {
+	display: block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+h2 {
+	padding-bottom: 10px;
+}
+
+#video {
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	width: 95%;
+	padding-top: 10px;
+}
+
+#gallery ul, li {
+	text-align: center;
+	list-style: none;
+}
+#gallery img {
+	margin: 40px 0px 0px 0px;
+	border: 7px solid white;
+	border-radius: 20px;
+	max-width: 100%;
+	height: auto;
+  }
+
+#social img {
+	margin-right: 5px;
+}
+
+#footer {
+	text-align: center;
+	font-family:  'Poiret One', cursive;
+	font-size: 0.8em;
+	color: white;
+}
+
+.jumbotron{
+	min-height: 800px;
+	background-image: url("pictures/img_6556blur.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+.jumbotron a{
+	color: #C94441;
+}
+#smalljumbotron .jumbotron{
+	min-height: 350px
+}
+#smalljumbotron .container{
+	margin-top:75px;
+}
+.class h1 {
+	text-align: center;
+	color: white;
+	
+}
+.container {
+	text-align:center;
+	margin-top:200px;
+	color: #C94441;
+	font-family: 'Poiret One', cursive;
+}
+#social-buttons{
+	background-color: #212324;
+	min-height:200px;
+}
+.btn-twitter{
+	background-color: #212324;
+	border-color: #212324;
+	color:#212324;
+}
+.btn-facebook{
+	background-color:#212324 ;
+	border-color:#212324 ;
+	color:#212324;
+}
+.btn-youtube{
+	background-color: #212324;
+	border-color:#212324;
+	color:#212324;
+}
+.space{
+	min-height:50px;
+}
+.nav{
+	font-family: 'Poiret One', cursive;
+	font-size: medium;
+	
+}
+.navbar-brand{
+	font-family: 'Poiret One', cursive;
+	font-size: large;
+}
+#mission .container{
+	text-align: justify;
+	margin-top:20px;
+	margin-bottom: 20px;
+}
+#mission h2{
+	text-align: center;
+}
+#mission a{
+	color: #C94441;
+}
+
+#about .container{
+	
+	text-align: justify;
+	margin-top: 50px;
+	margin-bottom : 50px;
+	
+}
+#commitee img{
+	max-width: 100%;
+	height:auto;
+}
+#commitee .container{
+	text-align:center;
+	margin-top:0px;
+	color: #C94441;
+	font-family: 'Poiret One', cursive;
+}
+
+
+#links .container{
+	margin-top: 50px;
+}
+#links .col-sm-3{
+	margin-top:10px;
+}
+#links img{
+	max-width:100%;
+	height:auto;
+	opacity:0.4;
+	filter: alpha(opacity=40);
+}
+#links img:hover{
+	max-width:100%%;
+	height: auto;
+	opacity:1.0;
+	filter: alpha(opacity=100);
+}
+
+#quotes .container{
+	margin-top: 20px;
+	margin-bottom:0px;
+}
+.sidebar-image-gallery img { opacity: 0.2; }
+.sidebar-image-gallery img:hover { opacity: 1; }
+.sidebar-image-gallery .row{ margin-bottom:20px; }
+
+#activities .container{
+	margin-top: 20px;
+	text-align: justify;
+}
+#activities a{
+	color:#C94441;
+}
+
+#conference2016 a{
+	color:#C94441;
+}
+
+#picsofcoma footer{
+	color: black;
+	font-size: 20px;
+}
+
+#dates .container{
+	text-align: justify;
+	margin-top: 20px
+}
+#dates h2{
+	text-align: left;
+}
+#picsofcom footer{
+	color: black;
+	font-size: 20px;
+}
